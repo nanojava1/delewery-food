@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
+  <link rel="stylesheet" href="css/style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Delewery Food</title>
@@ -8,15 +9,31 @@
 </head>
 <body>
   <header class="header">
+    <div class="header-block">
     <div class="header-container">
-      <img src="img/header-logo.png" alt="" class="hedaer-container__img">
+      <img src="img/header-logo.png" alt="" class="header-container__img">
+     <div class="header-container__block">
       <span class="header-container__title">
         Delivery
       </span>
       <span class="header-container__title">
         Food
-      </span>
-    </div>  
+      </span>  
+    </div>
+    <!-- /.header-container__block --> 
+    </div>
+    <form action="#" class="header-form">
+      <input type="text" placeholder="Адрес доставки" class="header-form__input">
+    </form> 
+    <div class="header-container__buttons">
+      <button class="header-container__buttons--come"><img src="img/user.svg" alt="">Войти</button>
+      <button class="header-container__buttons--basket"><img src="img/basket.svg" alt="">Корзина</button>
+    </div> 
+  </div>
+  <!-- /.header-block -->
   </header>
+<section class="delivery">
+  <div class="delivery-container"></div>
+</section>
 </body>
 </html>

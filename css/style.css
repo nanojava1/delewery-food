@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-  width: 1110px;
+  width: 1200px;
   margin: auto;
   height: 124px;
   display: flex;
@@ -48,7 +48,7 @@ body {
   padding-left: 35px;
   border: 1px solid gray;
   border-radius: 3px;
-  margin-right: 67px;
+  margin-right: 87px;
 }
 
 .header-container__block {
@@ -85,4 +85,33 @@ body {
   justify-content: space-evenly;
   background-color: #fff;
   border: 0.5px solid gray;
+}
+
+.delivery-container {
+  width: 1200px;
+  height: 300px;
+  background-color: #FFF1B8;
+  background-image: url(../img/pizza.png);
+  margin: auto;
+  padding: 68px 0px 0px 70px;
+}
+
+.delivery-container__title {
+  font-size: 39px;
+  margin: 0;
+}
+
+.delivery-container__subtitle {
+  display: block;
+  font-size: 24px;
+}
+
+.delivery-container__title--2 {
+  font-size: 39px;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.delivery {
+  margin-bottom: 56px;
 }/*# sourceMappingURL=style.css.map */
